@@ -7,7 +7,7 @@ void display(int arr[], int n) {
 }
 
 
-void arayasokma(int D[], int N){
+void insert(int D[], int N){
     
     int i, k, ekle;
     for (i=1;i<N;i++) {
@@ -26,7 +26,7 @@ int main()
     int D[7]={7,6,4353,231,3,9,10};
     int N = 7;
     display(D,N);
-    arayasokma(D,N);
+    insert(D,N);
     display(D,N);
     
 }
